@@ -3,8 +3,8 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'API', href: '#' },
-  { name: 'Github', href: '#' },
+  { name: 'API', href: 'https://jokes-generator-with-api-bjnu.vercel.app/' },
+  { name: 'Github', href: 'https://github.com/DevRohit06/Jokes-Generator-With-API' },
 
 ]
 
