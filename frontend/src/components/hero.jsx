@@ -61,7 +61,7 @@ export default function Hero() {
                   method="get"
                 >
                   <select id="type"
-                    onChange={(event) => {setSelect(event.target.value)}}
+                    onChange={(event) => {setSelect(event.target.value) && event.preventDefault()}}
                     className=" mx-auto lg:mr-8  bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-64 p-4"
                   >
                     <option value="joke">
