@@ -54,7 +54,7 @@ export default function Hero() {
               with your own and is available open source on github
             </p>
             <div>
-              <div className="lg:flex justify-center">
+              <div className="py-8 lg:flex justify-center">
                 <form
                   className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4"
                   onSubmit={(event) => {fetchJoke() && event.preventDefault()}}
