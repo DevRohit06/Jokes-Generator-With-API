@@ -49,7 +49,7 @@ export default function Hero() {
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               Jokes Generator
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600 ">
+            <p className="mt-6 text-lg leading-8 text-gray-400 ">
               This Jokes generator has an custom api which you can integrate
               with your own and is available open source on github
             </p>
