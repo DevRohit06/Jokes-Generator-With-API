@@ -57,7 +57,7 @@ export default function Hero() {
               <div className="lg:flex justify-center">
                 <form
                   className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4"
-                  onSubmit={fetchJoke}
+                  onSubmit={fetchJoke && (event) => {event.preventDefault()}}
                   method="get"
                 >
                   <select id="type"
