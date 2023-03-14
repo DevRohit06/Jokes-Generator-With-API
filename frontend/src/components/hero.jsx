@@ -7,7 +7,7 @@ export default function Hero() {
     return console.log("something is wrong");
   }
     const fetchJoke = async () => {
-      return fetch(`http://localhost:3000/${select}`)
+      return fetch(`https://jokes-generator-with-api-bjnu.vercel.app/${select}`)
         .then((response) => response.json())
         .then((data) => setJoke(data) && console.log(data));
     };
